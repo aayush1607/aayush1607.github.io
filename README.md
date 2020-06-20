@@ -2,10 +2,8 @@
 
 [My Portfolio](https://aayush1607.github.io/Portfolio/)
 
-
+## My Motto
 ```
-###My Motto
-
     while(noSuccess)
     {
           tryagain();
