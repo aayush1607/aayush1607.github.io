@@ -22,6 +22,7 @@
 
 ```
 ##Contact
-[Gmail](mailto:auc1607@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/aayush-chodvadiya-9122b418b)
-[Instagram](https://www.instagram.com/aayushchodvadiya_07/)
+
+-[Gmail](mailto:auc1607@gmail.com)
+-[LinkedIn](https://www.linkedin.com/in/aayush-chodvadiya-9122b418b)
+-[Instagram](https://www.instagram.com/aayushchodvadiya_07/)
