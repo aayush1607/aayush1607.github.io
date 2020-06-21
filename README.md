@@ -14,7 +14,8 @@
 
 - [TicTacToe](https://github.com/aayush1607/TicTacToe)  
 - [Python Cryptography Project](https://github.com/aayush1607/Simple-Cryptography-project-in-Python)  
-- [Problem Solving](https://github.com/aayush1607/Problem-Solving)  
+- [Problem Solving](https://github.com/aayush1607/Problem-Solving)
+- [Covid Fighter Game](https://github.com/aayush1607/Covid-Fighter-Game)
 - [Snake Game](https://github.com/aayush1607/SnakeGame)  
 
 ## Contact
