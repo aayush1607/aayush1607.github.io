@@ -6,7 +6,7 @@ let mobileNav=document.querySelector('.mobile-nav');
 
 let home=document.querySelector('.home');
 
-let about=document.querySelector('.about');
+let about=document.querySelector('.aboutme');
 
 let myskills=document.querySelector('.myskills');
 
