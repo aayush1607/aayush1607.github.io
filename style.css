@@ -289,8 +289,8 @@ header nav .left a{
 
 }
 header nav .left a:hover{
-    color: var(--pure);
-    background-color: bisque;
+    color: black;
+    background-color: rgba(255, 255, 0, 0.925);
    
 }
 header nav{
