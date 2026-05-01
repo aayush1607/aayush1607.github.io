@@ -1,59 +1,21 @@
-let ham= document.querySelector('.ham');
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.querySelector('.mobile-menu');
 
-let times= document.querySelector('.times');
-
-let mobileNav=document.querySelector('.mobile-nav');
-
-let home=document.querySelector('.home');
-
-let about=document.querySelector('.aboutme');
-
-let myskills=document.querySelector('.myskills');
-
-let contact=document.querySelector('.contact');
-
-ham.addEventListener('click',function(){
-
-    mobileNav.classList.add('open');
-
-
-
+toggle.addEventListener('click', () => {
+    const isOpen = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
 });
 
-times.addEventListener('click',function(){
-    mobileNav.classList.remove('open');
+document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+    });
 });
 
-
-home.addEventListener('click',function(){
-    mobileNav.classList.remove('open');
+document.addEventListener('click', e => {
+    if (!menu.contains(e.target) && !toggle.contains(e.target)) {
+        menu.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+    }
 });
-
-about.addEventListener('click',function(){
-    mobileNav.classList.remove('open');
-});
-myskills.addEventListener('click',function(){
-    mobileNav.classList.remove('open');
-});
-contact.addEventListener('click',function(){
-    mobileNav.classList.remove('open');
-});
-
-var mybutton = document.getElementById("myBtn");
-
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
